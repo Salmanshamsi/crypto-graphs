@@ -29,8 +29,8 @@ const AppRoutes = () => {
       children: [
         { index: true, element: <Navigate to="chart-1" replace /> },
         { path: "chart-1", element: <ChartOne /> },
-        { path: "chart-2", element: <ChartTwo /> },
-        { path: "chart-3", element: <ChartThree /> },
+        // { path: "chart-2", element: <ChartTwo /> },
+        // { path: "chart-3", element: <ChartThree /> },
       ],
     },
     { path: "/404", element: <NotFound /> },

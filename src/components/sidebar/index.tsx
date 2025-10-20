@@ -25,8 +25,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
   const navItems = [
     {id:"chart1", label:"Chart1", icon:ChartArea, path:"/chart-1"},
-    {id:"chart2", label:"Chart2", icon:ChartArea, path:"/chart-2"},
-    {id:"chart3", label:"Chart3", icon:ChartArea, path:"/chart-3"},
+    // {id:"chart2", label:"Chart2", icon:ChartArea, path:"/chart-2"},
+    // {id:"chart3", label:"Chart3", icon:ChartArea, path:"/chart-3"},
   ];
 
   return (
